@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Shadows+Into+Light&display=swap');
+
+:root {
+    --cor-principal:#C92BFC;
+    --cor-secundaria: #284260;
+    --cor-destaque: #6d144f;
+}
+
+body {
+    font-family: 'Shadows Into Light', sans-serif;
+}
+
+h1, h2, h5 {
+    color: var(--cor-principal);
+    font-weight: 700;
+}
+
+.lead, .btn-link {
+    color: var(--cor-destaque);
+    font-weight: 700;
+}
+  
+a, .btn-link:houver {
+    color: var(--cor-secundaria)
+}
+
+a:hover {
+    color: var(--cor-destaque);
+}
